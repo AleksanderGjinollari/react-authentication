@@ -27,6 +27,7 @@ export const LogInPage = () => {
         type="password"
         placeholder="password"
       />
+      <hr />
       <button disabled={!emailValue || !passwordValue} onClick={onLoginClicked}>
         Log In
       </button>
